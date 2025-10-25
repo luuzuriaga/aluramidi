@@ -72,3 +72,57 @@ h1 {
 .tecla:active:focus {
   box-shadow: 3px 3px 0 var(--rojo-oscuro) inset, 1px 1px 10px var(--luz);
 }
+
+
+.tecla_pom {
+  background: linear-gradient(to bottom, #ff6b6b, #ee5a6f);
+  color: white;
+}
+
+.tecla_clap {
+  background: linear-gradient(to bottom, #ffa500, #ff8c00);
+  color: white;
+}
+
+.tecla_tim {
+  background: linear-gradient(to bottom, #ffd93d, #f9ca24);
+  color: #333;
+}
+
+.tecla_puff {
+  background: linear-gradient(to bottom, #6bcf7f, #4ecb71);
+  color: white;
+}
+
+.tecla_splash {
+  background: linear-gradient(to bottom, #4ecdc4, #45b7af);
+  color: white;
+}
+
+.tecla_toim {
+  background: linear-gradient(to bottom, #5a9cff, #4a8cef);
+  color: white;
+}
+
+.tecla_psh {
+  background: linear-gradient(to bottom, #a29bfe, #6c5ce7);
+  color: white;
+}
+
+.tecla_tic {
+  background: linear-gradient(to bottom, #fd79a8, #e84393);
+  color: white;
+}
+
+.tecla_tom {
+  background: linear-gradient(to bottom, #ff7675, #d63031);
+  color: white;
+}
+
+/* Actualizar el estado activo para que se vea con cualquier color */
+.tecla.activa,
+.tecla:active {
+  transform: scale(0.95);
+  box-shadow: 0 0 0 4px rgba(255,255,255,0.5) inset;
+  filter: brightness(0.8);
+}
