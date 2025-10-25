@@ -2,9 +2,12 @@
 
 Batería electrónica interactiva desarrollada con HTML, CSS y JavaScript. Un pad MIDI virtual que reproduce sonidos de percusión al hacer clic o usar el teclado.
 
+
+
 ![Alura MIDI](images/home.png)
 
 ## 🎵 Descripción
+
 
 Alura MIDI es una aplicación web que simula un controlador MIDI de batería electrónica, similar a dispositivos como el Akai MPD o Novation Launchpad. Cuenta con 9 pads interactivos, cada uno con su propio sonido de percusión.
 
@@ -74,6 +77,11 @@ aluramidi/
 | Tom | Tom grave | keyc.wav |
 
 ## 🛠️ Tecnologías utilizadas
+
+![Estado del Proyecto](https://img.shields.io/badge/Estado-Finalizado-success)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)
 
 - **HTML5**: Estructura y elementos de audio
 - **CSS3**: Estilos y animaciones
@@ -160,3 +168,5 @@ Desarrollado como parte del curso de Alura LATAM - Lógica de Programación
 ---
 
 ⭐ Si te gustó este proyecto, ¡dale una estrella en GitHub!
+
+
